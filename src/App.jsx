@@ -39,7 +39,7 @@ function App() {
 			className="bg-slate-900 h-screen font-customFont
      flex items-center justify-center"
 		>
-			<div className="bg-slate-800 rounded-md p-8 flex flex-col gap-4">
+			<div className="bg-slate-800 rounded-md p-4 py-8 sm:p-8  flex flex-col gap-8 sm:gap-4">
 				<div className="flex items-center">
 					<input
 						type="text"
@@ -55,7 +55,7 @@ function App() {
 						Copy
 					</button>
 				</div>
-				<div className="flex flex-col sm:flex-row gap-4">
+				<div className="flex flex-col sm:flex-row gap-6 sm:gap-4">
 					<div className="flex items-center gap-1 text-[#F4C430]">
 						<input
 							type="range"
