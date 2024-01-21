@@ -37,7 +37,7 @@ function App() {
 	return (
 		<div
 			className="bg-slate-900 h-screen font-customFont
-     flex items-center justify-center"
+     flex items-center justify-center p-2"
 		>
 			<div className="bg-slate-800 rounded-md p-4 py-8 sm:p-8  flex flex-col gap-8 sm:gap-4">
 				<div className="flex items-center">
